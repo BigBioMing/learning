@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32414.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "保存枚举", "保存枚举\保存枚举\保存枚举.csproj", "{8A1770AD-6C0E-449A-B68B-7969F51C50BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "领域事件01", "领域事件01\领域事件01.csproj", "{776D8E63-6F8A-48D1-B7BD-52057D8B1E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A1770AD-6C0E-449A-B68B-7969F51C50BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1770AD-6C0E-449A-B68B-7969F51C50BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1770AD-6C0E-449A-B68B-7969F51C50BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1770AD-6C0E-449A-B68B-7969F51C50BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776D8E63-6F8A-48D1-B7BD-52057D8B1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776D8E63-6F8A-48D1-B7BD-52057D8B1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776D8E63-6F8A-48D1-B7BD-52057D8B1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776D8E63-6F8A-48D1-B7BD-52057D8B1E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7C60A6-3590-4A45-99E5-F0145BFBDCE7}
+	EndGlobalSection
+EndGlobal
