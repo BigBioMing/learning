@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 49170
+          "Port": 7273
         }
       ],
       "UpstreamPathTemplate": "/mobile/api/{everything}",
@@ -14,14 +14,38 @@
     },
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 49172
+          "Port": 7247
+        }
+      ],
+      "UpstreamPathTemplate": "/mobileagg/api/{everything}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7013
         }
       ],
       "UpstreamPathTemplate": "/order/api/{everything}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7142
+        }
+      ],
+      "UpstreamPathTemplate": "/user/api/{everything}",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
