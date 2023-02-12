@@ -17,19 +17,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingDemo", "RoutingDemo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{8017BD9E-9931-478F-9AA4-D2089E61E582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyDemo", "PollyDemo\PollyDemo.csproj", "{02DF0A8E-3BD3-4EC4-BBB9-C191B2732099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyDemo", "PollyDemo\PollyDemo.csproj", "{02DF0A8E-3BD3-4EC4-BBB9-C191B2732099}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGategay", "ApiGategay", "{6EC1556F-237B-4E73-8DDA-40CEFC85A85C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGategayDemo", "ApiGategay\ApiGategayDemo\ApiGategayDemo.csproj", "{90A00816-2988-4A69-957A-0D8169640053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Api", "ApiGategay\Mobile.Api\Mobile.Api.csproj", "{3B7DB6BC-5D18-445E-8C66-6A130FE49C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mobile.Api", "ApiGategay\Mobile.Api\Mobile.Api.csproj", "{3B7DB6BC-5D18-445E-8C66-6A130FE49C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Aggregate.Api", "ApiGategay\Mobile.Aggregate.Api\Mobile.Aggregate.Api.csproj", "{0231D06A-761E-4AA7-98DF-64134320E3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mobile.Aggregate.Api", "ApiGategay\Mobile.Aggregate.Api\Mobile.Aggregate.Api.csproj", "{0231D06A-761E-4AA7-98DF-64134320E3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Api", "ApiGategay\User.Api\User.Api.csproj", "{D6402EDA-BF73-4CFD-8C7C-929511001315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Api", "ApiGategay\User.Api\User.Api.csproj", "{D6402EDA-BF73-4CFD-8C7C-929511001315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Api", "ApiGategay\Order.Api\Order.Api.csproj", "{3D66F2A3-D4C9-4426-A878-ADC856762A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order.Api", "ApiGategay\Order.Api\Order.Api.csproj", "{3D66F2A3-D4C9-4426-A878-ADC856762A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapDemo", "CapDemo\CapDemo.csproj", "{C017A9B4-180E-4077-96B0-802F8421A9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo01", "CQRSDemo01\CQRSDemo01.csproj", "{5917EA22-F514-4328-AFB6-FE07A16A1B64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,14 @@ Global
 		{3D66F2A3-D4C9-4426-A878-ADC856762A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D66F2A3-D4C9-4426-A878-ADC856762A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D66F2A3-D4C9-4426-A878-ADC856762A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C017A9B4-180E-4077-96B0-802F8421A9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C017A9B4-180E-4077-96B0-802F8421A9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C017A9B4-180E-4077-96B0-802F8421A9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C017A9B4-180E-4077-96B0-802F8421A9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5917EA22-F514-4328-AFB6-FE07A16A1B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5917EA22-F514-4328-AFB6-FE07A16A1B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5917EA22-F514-4328-AFB6-FE07A16A1B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5917EA22-F514-4328-AFB6-FE07A16A1B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
