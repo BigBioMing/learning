@@ -8,6 +8,7 @@ using DesignPatternDemo.IteratorPattern;
 using DesignPatternDemo.ObserverPattern;
 using DesignPatternDemo.ResponsibilityChainPattern;
 using DesignPatternDemo.StatePattern;
+using DesignPatternDemo.VisitorPattern;
 
 Console.WriteLine("Hello, World!");
 
@@ -35,7 +36,10 @@ Console.WriteLine("Hello, World!");
 ////命令模式
 //TestCommandPattern.Execute();
 
-//职责链模式
-TestResponsibilityChainPattern.Execute();
+////职责链模式
+//TestResponsibilityChainPattern.Execute();
+
+//访问者模式
+TestVisitorPattern.Execute();
 
 Console.ReadKey();
