@@ -5,6 +5,7 @@ using DesignPatternDemo.CommandPattern.Barbecues;
 using DesignPatternDemo.CommandPattern.Normal;
 using DesignPatternDemo.CompositePattern;
 using DesignPatternDemo.IteratorPattern;
+using DesignPatternDemo.MementoPattern;
 using DesignPatternDemo.ObserverPattern;
 using DesignPatternDemo.ResponsibilityChainPattern;
 using DesignPatternDemo.StatePattern;
@@ -39,7 +40,10 @@ Console.WriteLine("Hello, World!");
 ////职责链模式
 //TestResponsibilityChainPattern.Execute();
 
-//访问者模式
-TestVisitorPattern.Execute();
+////访问者模式
+//TestVisitorPattern.Execute();
+
+//备忘录模式
+TestMementoPattern.Execute();
 
 Console.ReadKey();
