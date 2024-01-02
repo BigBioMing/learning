@@ -107,5 +107,17 @@ namespace SplitTableDemo01.Controllers
                 IconColor = memberLevel?.IconColor
             });
         }
+
+        /// <summary>
+        /// 空接口
+        /// </summary>
+        /// <param name="memberId"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetEmpty")]
+        public ActionResult GetEmpty(long memberId)
+        {
+            return new JsonResult(new { });
+        }
     }
 }

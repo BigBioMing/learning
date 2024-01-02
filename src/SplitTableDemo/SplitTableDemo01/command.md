@@ -1,19 +1,20 @@
 ﻿docker build -f DockerfileSimple -t atest:0.0.1 .
+docker build -f DockerfileSimple -t atest:0.0.2 .
 
 
 docker run -itd --rm --name busybox01 busybox sh
 
 
-docker run -itd --name atest01 -p 10010:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest02 -p 10011:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest03 -p 10012:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest04 -p 10013:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest05 -p 10014:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest06 -p 10015:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest07 -p 10016:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest08 -p 10017:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest09 -p 10018:8080 atest:0.0.1 /bin/bash
-docker run -itd --name atest10 -p 10019:8080 atest:0.0.1 /bin/bash
+docker run -itd --name atest01 -p 10010:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest02 -p 10011:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest03 -p 10012:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest04 -p 10013:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest05 -p 10014:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest06 -p 10015:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest07 -p 10016:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest08 -p 10017:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest09 -p 10018:8080 atest:0.0.2 /bin/bash
+docker run -itd --name atest10 -p 10019:8080 atest:0.0.2 /bin/bash
 
 
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' atest01
@@ -49,7 +50,7 @@ curl http://172.17.0.23:8080/api/member/GetMemberInfo?memberId=17413634034291220
 
 
 
-docker stats mysql02 atest01 atest02 atest03 atest04  atest06 atest07 atest08 atest09 atest10
+docker stats mysql02 atest01 atest02 atest03 atest04 atest05 atest06 atest07 atest08 atest09 atest10
 
 计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
 
@@ -83,3 +84,8 @@ ps -ef | grep nginx
         server 172.17.0.22:8080;
         server 172.17.0.23:8080;
     }
+
+
+
+    
+docker rm -f atest01 atest02 atest03 atest04 atest05 atest06 atest07 atest08 atest09 atest10
