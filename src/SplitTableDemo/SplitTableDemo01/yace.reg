@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\]
+"MaxUserPort"=dword:fffe
+"TcpTimedWaitDelay"=dword:1e
+"TcpNumConnections"=dword:fffffe
+"MaxFreeTcbs"=dword:7D0
+"MaxHashTableSize"=dword:10000

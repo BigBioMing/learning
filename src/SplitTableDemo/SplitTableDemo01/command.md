@@ -68,3 +68,18 @@ docker stats mysql02 atest01 atest02 atest03 atest04  atest06 atest07 atest08 at
 
 查询nginx是否启动：
 ps -ef | grep nginx
+
+
+
+
+    upstream backend {
+        server 172.17.0.15:8080;
+        server 172.17.0.16:8080;
+        server 172.17.0.17:8080;
+        server 172.17.0.18:8080;
+        server 172.17.0.19:8080;
+        server 172.17.0.20:8080;
+        server 172.17.0.21:8080;
+        server 172.17.0.22:8080;
+        server 172.17.0.23:8080;
+    }

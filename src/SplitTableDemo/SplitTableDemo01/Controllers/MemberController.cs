@@ -29,7 +29,8 @@ namespace SplitTableDemo01.Controllers
 
             var tableName = this._db.SplitHelper<Member>().GetTableName(memberId);//根据字段值获取表名
             //推荐： 表不存在不会报错
-            var member = this._db.Queryable<Member>().Where(n => n.Id == memberId).SplitTable(tabs => tabs.InTableNames(tableName)).First();
+            var member = this._db.Queryable<Member>().Where(n => n.Id == memberId).SplitTable().First();
+            //var member = this._db.Queryable<Member>().Where(n => n.Id == memberId).SplitTable(tabs => tabs.InTableNames(tableName)).First();
 
             return new JsonResult(new
             {
